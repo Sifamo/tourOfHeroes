@@ -2,7 +2,9 @@ import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
+import {HeroesComponent} from './app/heroes/heroes.component'
 import { environment } from './environments/environment';
+import { from } from 'rxjs';
 
 if (environment.production) {
   enableProdMode();
